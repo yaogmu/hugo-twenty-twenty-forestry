@@ -18,9 +18,12 @@ googleAnalytics = "" # example : UA-123-45
 
 ############################## Multilingual ###############################
 [languages]
+  [languages.de]
+    title = 'Mein Blog'
+    weight = 1
   [languages.en]
     title = 'My blog'
-    weight = 1
+    weight = 2
 
 ############################## Output ###############################
 [outputs]
