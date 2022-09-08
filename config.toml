@@ -1,8 +1,6 @@
 ######################## default configuration ####################
 baseURL = "/"
 title = "Twenty Twenty Hugo for Forestry"
-languageName = "de"
-languageCode = "de-de"
 defaultContentLanguage = 'de'
 
 theme = "github.com/themefisher/twenty-twenty-hugo"
@@ -20,9 +18,13 @@ googleAnalytics = "" # example : UA-123-45
 ############################## Multilingual ###############################
 [languages]
   [languages.de]
+    languageName = "De"
+    languageCode = "de-de"
     title = 'Grundschule Am Alten Schloss'
     weight = 1
   [languages.en]
+    languageName = "En"
+    languageCode = "en-us"
     title = 'Elementary school Am Alten Schloss'
     weight = 2
 
