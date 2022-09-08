@@ -3,6 +3,7 @@ baseURL = "/"
 title = "Twenty Twenty Hugo for Forestry"
 languageName = "En"
 languageCode = "de-de"
+defaultContentLanguage = 'en'
 
 theme = "github.com/themefisher/twenty-twenty-hugo"
 # post pagination
@@ -17,7 +18,6 @@ disableLanguages = [] # desable language from here
 googleAnalytics = "" # example : UA-123-45
 
 ############################## Multilingual ###############################
-defaultContentLanguage = 'de'
 [languages]
   [languages.de]
     title = 'Grundschule Am Alten Schloss'
