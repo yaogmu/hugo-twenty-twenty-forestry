@@ -3,7 +3,6 @@ baseURL = "/"
 title = "Twenty Twenty Hugo for Forestry"
 languageName = "En"
 languageCode = "de-de"
-defaultContentLanguage = 'de'
 
 theme = "github.com/themefisher/twenty-twenty-hugo"
 # post pagination
