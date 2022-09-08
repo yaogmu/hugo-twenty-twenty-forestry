@@ -16,7 +16,11 @@ disableLanguages = [] # desable language from here
 # google analytics
 googleAnalytics = "" # example : UA-123-45
 
-
+############################## Multilingual ###############################
+[languages]
+  [languages.en]
+    title = 'My blog'
+    weight = 1
 
 ############################## Output ###############################
 [outputs]
