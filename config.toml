@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "/"
 title = "Twenty Twenty Hugo for Forestry"
-languageName = "De"
+languageName = "de"
 languageCode = "de-de"
 
 theme = "github.com/themefisher/twenty-twenty-hugo"
