@@ -20,10 +20,10 @@ googleAnalytics = "" # example : UA-123-45
 defaultContentLanguage = 'de'
 [languages]
   [languages.de]
-    title = 'Mein Blog'
+    title = 'Grundschule Am Alten Schloss'
     weight = 1
   [languages.en]
-    title = 'My blog'
+    title = 'Elementary school Am Alten Schloss'
     weight = 2
 
 ############################## Output ###############################
