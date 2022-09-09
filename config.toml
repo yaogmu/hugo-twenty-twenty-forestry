@@ -36,6 +36,18 @@ googleAnalytics = "" # example : UA-123-45
         name = 'About'
         URL = "about"
         weight = 2  
+      [[languages.en.menu.main]]
+        name = 'Blog'
+        URL = "blog"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = 'Contact'
+        URL = "contact"
+        weight = 4
+      [[languages.en.menu.main]]
+        name = 'Sample Page'
+        URL = "sample-page"
+        weight = 5          
 
 ############################## Output ###############################
 [outputs]
@@ -54,12 +66,12 @@ author = "author"
 
 # main menu
 [[menu.main]]
-name = "Home"
+name = "Startseite"
 URL = "/"
 weight = 1
 
 [[menu.main]]
-name = "About"
+name = "Unsere Schule"
 URL = "about"
 weight = 2
 
@@ -69,7 +81,7 @@ URL = "blog"
 weight = 3
 
 [[menu.main]]
-name = "Contact"
+name = "Kontakt"
 URL = "contact"
 weight = 4
 
