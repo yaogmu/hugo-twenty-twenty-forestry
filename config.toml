@@ -22,14 +22,20 @@ googleAnalytics = "" # example : UA-123-45
     languageCode = "de-de"
     title = 'Grundschule Am Alten Schloss'
     weight = 1
-    [languages.de.menu]
-[[languages.de.menu.main]]
-      name = 'Startseite'
   [languages.en]
     languageName = "En"
     languageCode = "en-us"
     title = 'Elementary school Am Alten Schloss'
     weight = 2
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = 'Home'
+        URL = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = 'About'
+        URL = "about"
+        weight = 2  
 
 ############################## Output ###############################
 [outputs]
